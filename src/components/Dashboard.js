@@ -1,9 +1,30 @@
 import React from "react";
-import { MDBContainer,MDBBadge, MDBBtn, MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
+import { MDBNavbar,MDBInputGroup,MDBNavbarBrand,MDBContainer,MDBBadge, MDBBtn, MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 
 const Dashboard = () => {
     return(
       <>
+       <MDBNavbar light bgColor='light'>
+        <MDBContainer>
+          <MDBNavbarBrand href='#'>
+            <img
+              src='https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.webp'
+              height='30'
+              alt=''
+              loading='lazy'
+            />
+          </MDBNavbarBrand>
+  
+            <MDBInputGroup tag="form" className='d-flex w-auto mb-3'>
+              <MDBBtn outline>Maheshwaran P</MDBBtn>
+            </MDBInputGroup>
+
+        </MDBContainer>
+
+
+
+
+      </MDBNavbar>
         <MDBContainer>
         <MDBTable align='middle'>
       <MDBTableHead>
