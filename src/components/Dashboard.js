@@ -3,6 +3,7 @@ import { MDBContainer,MDBBadge, MDBBtn, MDBTable, MDBTableHead, MDBTableBody } f
 
 const Dashboard = () => {
     return(
+      <>
         <MDBContainer>
         <MDBTable align='middle'>
       <MDBTableHead>
@@ -25,7 +26,7 @@ const Dashboard = () => {
                 className='rounded-circle'
               />
               <div className='ms-3'>
-                <p className='fw-bold mb-1'>John Doe</p>
+                <p className='fw-bold mb-1'>John Doe1</p>
                 <p className='text-muted mb-0'>john.doe@gmail.com</p>
               </div>
             </div>
@@ -110,7 +111,7 @@ const Dashboard = () => {
         </tr>
       </MDBTableBody>
     </MDBTable></MDBContainer>
-       
+    </> 
     )
 }
 
